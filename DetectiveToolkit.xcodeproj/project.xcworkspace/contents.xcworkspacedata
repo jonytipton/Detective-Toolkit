@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../DetectiveToolkit/identifyController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../DetectiveToolkit/Images.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../../../Desktop/exclamation.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../../../Downloads/exclamationHome.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../../../Downloads/greyBackground.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../../../Downloads/Background.PNG">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
