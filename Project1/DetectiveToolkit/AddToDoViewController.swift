@@ -53,6 +53,7 @@ class AddToDoViewController: UIViewController,
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let image = info[.originalImage] as? UIImage {
             imageView.image = image
+            imageView.isHidden = false
         }
         pickerController.dismiss(animated: true, completion: nil)
     }

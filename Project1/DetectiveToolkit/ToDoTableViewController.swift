@@ -11,7 +11,6 @@ import UIKit
 class ToDoTableViewController: UITableViewController {
 
     //declares and initializes an empty array that will contain ToDo objects
-    //var toDos: [ToDo] = []
     var toDoCDs:[ToDoCD] = []
     
     override func viewDidLoad() {
@@ -35,7 +34,6 @@ class ToDoTableViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         //return toDos.count
         return toDoCDs.count
     }

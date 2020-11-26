@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "filename" : "LaunchImage-1.png",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "LandscapeLaunch-1.png",
+      "height-class" : "compact",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "LaunchImage.png",
+      "idiom" : "iphone",
+      "width-class" : "compact"
+    },
+    {
+      "filename" : "LandscapeLaunch.png",
+      "height-class" : "compact",
+      "idiom" : "iphone",
+      "width-class" : "compact"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

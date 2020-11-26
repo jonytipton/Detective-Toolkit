@@ -60,9 +60,10 @@ class identifyController: UIViewController, UIImagePickerControllerDelegate, UIN
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey:Any]) {
         if let image = info[.originalImage] as? UIImage {
             imageView.image = image
+            imageView.isHidden = false
+            self.resultsText.isHidden = false
             classifyPicture(image: image)
         }
-        
         picker.dismiss(animated: true, completion: nil)
     }
 }

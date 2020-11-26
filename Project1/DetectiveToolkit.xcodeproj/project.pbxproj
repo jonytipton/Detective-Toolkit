@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB07BF6B2567AB2C00D7945D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB07BF6A2567AB2C00D7945D /* Launch Screen.storyboard */; };
 		AB449B24250B0D7C00A4061F /* researchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB449B23250B0D7C00A4061F /* researchViewController.swift */; };
 		AB449B26250B149D00A4061F /* greyBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB449B25250B149D00A4061F /* greyBackground.jpg */; };
 		AB449B28250B160600A4061F /* exclamation.png in Resources */ = {isa = PBXBuildFile; fileRef = AB449B27250B160600A4061F /* exclamation.png */; };
@@ -20,15 +21,17 @@
 		AB9A8733254A48D100ADB368 /* poiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A8732254A48D100ADB368 /* poiController.swift */; };
 		ABB3C14C2509A0F400483A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C14B2509A0F400483A66 /* AppDelegate.swift */; };
 		ABB3C14E2509A0F400483A66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C14D2509A0F400483A66 /* SceneDelegate.swift */; };
-		ABB3C15A2509A0F500483A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB3C1582509A0F500483A66 /* LaunchScreen.storyboard */; };
 		ABB3C1642509B1B200483A66 /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C1632509B1B200483A66 /* myTabBarController.swift */; };
 		ABD376C7254B7D3300ADB322 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD376C6254B7D3300ADB322 /* Pin.swift */; };
 		ABD376CC254B7E6A00ADB322 /* Points.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABD376CA254B7E6A00ADB322 /* Points.xcdatamodeld */; };
 		ABD376E0254B826A00ADB322 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABD376DE254B826A00ADB322 /* ToDoList.xcdatamodeld */; };
 		ABD376ED254BEE1A00ADB322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD376EC254BEE1A00ADB322 /* Main.storyboard */; };
+		ABDAD9DE256F73E80009A3BB /* LandscapeLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDAD9DD256F73E80009A3BB /* LandscapeLaunch.png */; };
+		ABDAD9E1256F73ED0009A3BB /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDAD9E0256F73ED0009A3BB /* LaunchImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB07BF6A2567AB2C00D7945D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AB449B23250B0D7C00A4061F /* researchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = researchViewController.swift; sourceTree = "<group>"; };
 		AB449B25250B149D00A4061F /* greyBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greyBackground.jpg; path = DetectiveToolkit/greyBackground.jpg; sourceTree = SOURCE_ROOT; };
 		AB449B27250B160600A4061F /* exclamation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation.png; sourceTree = "<group>"; };
@@ -43,13 +46,14 @@
 		ABB3C1482509A0F400483A66 /* DetectiveToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetectiveToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB3C14B2509A0F400483A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB3C14D2509A0F400483A66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABB3C1592509A0F500483A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB3C15B2509A0F500483A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB3C1632509B1B200483A66 /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
 		ABD376C6254B7D3300ADB322 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 		ABD376CB254B7E6A00ADB322 /* SavedPins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedPins.xcdatamodel; sourceTree = "<group>"; };
 		ABD376DF254B826A00ADB322 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		ABD376EC254BEE1A00ADB322 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ABDAD9DD256F73E80009A3BB /* LandscapeLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandscapeLaunch.png; sourceTree = "<group>"; };
+		ABDAD9E0256F73ED0009A3BB /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,26 +86,28 @@
 		ABB3C14A2509A0F400483A66 /* DetectiveToolkit */ = {
 			isa = PBXGroup;
 			children = (
-				AB449B29250B164900A4061F /* Images.xcassets */,
-				AB449B25250B149D00A4061F /* greyBackground.jpg */,
-				ABD376EC254BEE1A00ADB322 /* Main.storyboard */,
-				AB449B27250B160600A4061F /* exclamation.png */,
-				AB449B2B250B24FB00A4061F /* identifyController.swift */,
-				ABB3C14B2509A0F400483A66 /* AppDelegate.swift */,
-				ABB3C14D2509A0F400483A66 /* SceneDelegate.swift */,
-				AB5DB709250B2B640034FE2D /* ToDoTableViewController.swift */,
-				AB9A8732254A48D100ADB368 /* poiController.swift */,
-				ABD376C6254B7D3300ADB322 /* Pin.swift */,
-				ABD376CA254B7E6A00ADB322 /* Points.xcdatamodeld */,
-				ABD376DE254B826A00ADB322 /* ToDoList.xcdatamodeld */,
-				AB5DB710250B2CC10034FE2D /* ToDo.swift */,
-				AB449B23250B0D7C00A4061F /* researchViewController.swift */,
-				AB5DB717250B42DB0034FE2D /* ToDoDetailsViewController.swift */,
 				AB5DB70B250B2B870034FE2D /* AddToDoViewController.swift */,
-				AB449B2D250B250F00A4061F /* Resnet50.mlmodel */,
-				ABB3C1632509B1B200483A66 /* myTabBarController.swift */,
-				ABB3C1582509A0F500483A66 /* LaunchScreen.storyboard */,
+				ABB3C14B2509A0F400483A66 /* AppDelegate.swift */,
+				AB449B27250B160600A4061F /* exclamation.png */,
+				AB449B25250B149D00A4061F /* greyBackground.jpg */,
+				AB449B2B250B24FB00A4061F /* identifyController.swift */,
+				AB449B29250B164900A4061F /* Images.xcassets */,
 				ABB3C15B2509A0F500483A66 /* Info.plist */,
+				AB07BF6A2567AB2C00D7945D /* Launch Screen.storyboard */,
+				ABD376EC254BEE1A00ADB322 /* Main.storyboard */,
+				ABDAD9E0256F73ED0009A3BB /* LaunchImage.png */,
+				ABB3C1632509B1B200483A66 /* myTabBarController.swift */,
+				ABD376C6254B7D3300ADB322 /* Pin.swift */,
+				ABDAD9DD256F73E80009A3BB /* LandscapeLaunch.png */,
+				AB9A8732254A48D100ADB368 /* poiController.swift */,
+				ABD376CA254B7E6A00ADB322 /* Points.xcdatamodeld */,
+				AB449B23250B0D7C00A4061F /* researchViewController.swift */,
+				AB449B2D250B250F00A4061F /* Resnet50.mlmodel */,
+				ABB3C14D2509A0F400483A66 /* SceneDelegate.swift */,
+				AB5DB710250B2CC10034FE2D /* ToDo.swift */,
+				AB5DB717250B42DB0034FE2D /* ToDoDetailsViewController.swift */,
+				ABD376DE254B826A00ADB322 /* ToDoList.xcdatamodeld */,
+				AB5DB709250B2B640034FE2D /* ToDoTableViewController.swift */,
 			);
 			path = DetectiveToolkit;
 			sourceTree = "<group>";
@@ -164,8 +170,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB3C15A2509A0F500483A66 /* LaunchScreen.storyboard in Resources */,
+				AB07BF6B2567AB2C00D7945D /* Launch Screen.storyboard in Resources */,
 				ABD376ED254BEE1A00ADB322 /* Main.storyboard in Resources */,
+				ABDAD9DE256F73E80009A3BB /* LandscapeLaunch.png in Resources */,
+				ABDAD9E1256F73ED0009A3BB /* LaunchImage.png in Resources */,
 				AB449B2A250B164900A4061F /* Images.xcassets in Resources */,
 				AB449B26250B149D00A4061F /* greyBackground.jpg in Resources */,
 				AB449B28250B160600A4061F /* exclamation.png in Resources */,
@@ -197,17 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		ABB3C1582509A0F500483A66 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABB3C1592509A0F500483A66 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ABB3C15C2509A0F500483A66 /* Debug */ = {
@@ -261,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -316,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -330,15 +327,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X67TLHFY58;
 				INFOPLIST_FILE = DetectiveToolkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantipton.DetectiveToolkit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantipton.DetectiveTK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -348,15 +348,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X67TLHFY58;
 				INFOPLIST_FILE = DetectiveToolkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantipton.DetectiveToolkit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathantipton.DetectiveTK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
