@@ -1,4 +1,4 @@
-# PROJECT1
+# Final Project
 iOS Development Course - Fall 2020
 
 # Final Project - README
